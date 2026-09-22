@@ -1,22 +1,29 @@
-# Chat & Games App
+# Welcome to your Lovable project
 
-Real-Time Social Chat & Multiplayer Games platform.
+This project was built with [Lovable](https://lovable.dev).
 
-## Stack
-- Next.js + TypeScript (frontend + server routes)
-- GitHub (source control)
-- Vercel (deployment)
-- Supabase (database, auth, storage, realtime)
+## Build with Lovable
 
-## Phase 01 — Foundation (current)
-- Next.js + TypeScript project created
-- Supabase client helper added (`lib/supabase/client.ts`)
-- Environment variable structure defined (`.env.example`)
+Open your project in the [Lovable editor](https://lovable.dev) and keep building.
 
-## Setup
-1. Run `npm install`
-2. Copy `.env.example` to `.env.local` and fill in your Supabase project URL and anon key
-3. Run `npm run dev` and open http://localhost:3000
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
+- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
 
-## Environment Variables
-See `.env.example`. Never commit `.env.local` — it is git-ignored.
+## Development
+
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
+npm run dev
+```
+
+## Built with
+
+- TanStack Start
+- TypeScript
+- React
+- Tailwind CSS
